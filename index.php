@@ -20,13 +20,13 @@ $config['default_offer_page'] = 'https://shopee.co.id/emeis.id_';
 /* WHITE_PAGE render method. Available options: curl, 302 */
 /* 'curl' - uses a server request to display third-party whitepage on your domain */
 /* '302' -  uses a 302 redirect to redirect the request to a third-party domain (only for trusted accounts)  */
-$config['render_white_method'] = 'curl';
+$config['render_white_method'] = '302';
 
 /* OFFER_PAGE render method. Available options: meta, 302, iframe */
 /* 'meta' - Use meta refresh to redirect visitors. (default method due to maximum compatibility with different hostings) */
 /* '302' -  Redirect visitors using 302 header (best method if the goal is maximum transitions).*/
 /* 'iframe' - Open URL in iframe. (recommended and safest method. requires the use of a SSL to work properly) */
-$config['render_offer_method'] = 'iframe';
+$config['render_offer_method'] = '302';
 
 /* Geo filter: Display offer page only to visitors from allowed countries.  */
 /* For example, if you enter 'ID|US' in the next line, system will only allow users from Indonesia and USA */
