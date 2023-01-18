@@ -12,7 +12,7 @@ $fake_allowed_host = $_SERVER['HTTP_HOST'];
 $config['debug'] = false;
 
 /* PHP/HTML file or URL used for bots */
-$config['default_white_page'] = 'https://www.instagram.com/emeis.id_/';
+$config['default_white_page'] = 'https://www.instagram.com/reel/CmeF8xXuPW3/';
 
 /* PHP/HTML file or URL offer used for real users */
 $config['default_offer_page'] = 'https://shopee.co.id/emeis.id_';
